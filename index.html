@@ -73,7 +73,7 @@
 
     <div>
         <input type="text" id="combination" placeholder="Votre combinaison (ex: 123456AB)">
-        <input type="number" id="exact" placeholder="Nombre d'éléments exacts" onkeydown="if (event.key === 'Enter') handleButtonClick()">
+        <input type="number" id="exact" placeholder="Nombre d'éléments exacts" onkeyup="if (event.key === 'Enter') handleButtonClick()">
         <button id="tentative" onclick="handleButtonClick()">Ajouter Tentative</button>
     </div>
 
